@@ -11,7 +11,7 @@ class TransferData:
             dbx.files_upload(f.read(), fileTo)
 
 def main():
-    accessToken = "jT1_Fij8KjgAAAAAAAAAARdn6pgFqggCozTrJLMyGBlOPcdGk9alA9zB7CK9sIsQ"
+    accessToken = "jT1_Fij8KjgAAAAAAAAAARdn6pgFqggCozTrJLMyGBlOPcdGk9alA9zB7CK"
     transferData =  TransferData(accessToken)
 
 
